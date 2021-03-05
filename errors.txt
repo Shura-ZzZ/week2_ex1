@@ -1,0 +1,9 @@
+MainMyExeption{detail=верхний уровень}
+	at Main.demo(Main.java:23)
+	at Main.main(Main.java:13)
+Caused by: SecondMyException{detail=второй уровень}
+	at Main.demo(Main.java:24)
+	... 1 more
+Caused by: ThirdMyExeption{detail=причина - третий уровень}
+	at Main.demo(Main.java:25)
+	... 1 more
